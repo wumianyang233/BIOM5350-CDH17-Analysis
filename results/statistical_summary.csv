@@ -1,0 +1,4 @@
+comparison_id,analysis_role,group_1,group_2,n_1,n_2,median_1_log2_TPM_plus_0.001,median_2_log2_TPM_plus_0.001,median_difference_1_minus_2,mann_whitney_U_1,rank_biserial_correlation_1_vs_2,p_value_two_sided,p_value_holm_primary_only,expression_scale,test
+tcga_colon,primary,TCGA colon primary tumors,TCGA colon solid-tissue normals,288,41,7.4535,8.243,-0.7895,2472.5,-0.5812161247,1.733684966e-09,3.467369931e-09,log2(TPM + 0.001),"Mann-Whitney U, two-sided, unpaired"
+tcga_rectum,primary,TCGA rectum primary tumors,TCGA rectum solid-tissue normals,92,10,7.675,7.9195,-0.2445,354.5,-0.2293478261,0.2373624822,0.2373624822,log2(TPM + 0.001),"Mann-Whitney U, two-sided, unpaired"
+gtex_colon_subsite,secondary_exploratory,GTEx normal sigmoid colon,GTEx normal transverse colon,141,167,-1.056,6.908,-7.964,3158.5,-0.7317280333,1.891498195e-28,,log2(TPM + 0.001),"Mann-Whitney U, two-sided, unpaired"

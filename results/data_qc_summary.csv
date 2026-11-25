@@ -1,0 +1,53 @@
+metric,value,details
+expression_dataset_sample_ids,19131,TcgaTargetGtex_rsem_gene_tpm
+phenotype_dataset_sample_ids,19131,TcgaTargetGTEX_phenotype.txt
+shared_sample_ids,19131,Unique intersection used for targeted fetch
+expression_dataset_duplicate_ids,0,
+phenotype_dataset_duplicate_ids,0,
+expression_values_fetched,19131,
+phenotype_rows_fetched,19131,
+joined_rows,19131,"Outer merge on sampleID, validate=one_to_one"
+join_both_rows,19131,
+join_left_only_rows,0,
+join_right_only_rows,0,
+join_success_rate_percent,100.0,
+expression_missing_rows,0,"Missing values are retained, not imputed"
+expression_nonnumeric_rows,0,Nonnumeric values are retained in raw expression column
+phenotype_missing::_study,0,Missing or blank source annotation values; rows are retained
+phenotype_missing::_primary_site,5,Missing or blank source annotation values; rows are retained
+phenotype_missing::_sample_type,0,Missing or blank source annotation values; rows are retained
+phenotype_missing::detailed_category,1,Missing or blank source annotation values; rows are retained
+phenotype_missing::primary disease or tissue,1,Missing or blank source annotation values; rows are retained
+phenotype_missing::_gender,159,Missing or blank source annotation values; rows are retained
+annotated_main_dataset_rows,7860,Only six requested groups and successful joins
+annotated_main_dataset_columns,14,"Includes raw expression, annotations, group and QC helpers"
+raw_intermediate_rows,19131,All expression/phenotype rows represented by outer join
+group_rows::TCGA colon primary tumors,288,feasibility reference=288
+group_expression_missing::TCGA colon primary tumors,0,
+group_expression_nonnumeric::TCGA colon primary tumors,0,
+group_rows::TCGA rectum primary tumors,92,feasibility reference=92
+group_expression_missing::TCGA rectum primary tumors,0,
+group_expression_nonnumeric::TCGA rectum primary tumors,0,
+group_rows::TCGA colon solid-tissue normals,41,feasibility reference=41
+group_expression_missing::TCGA colon solid-tissue normals,0,
+group_expression_nonnumeric::TCGA colon solid-tissue normals,0,
+group_rows::TCGA rectum solid-tissue normals,10,feasibility reference=10
+group_expression_missing::TCGA rectum solid-tissue normals,0,
+group_expression_nonnumeric::TCGA rectum solid-tissue normals,0,
+group_rows::GTEx normal colon,308,feasibility reference=308
+group_expression_missing::GTEx normal colon,0,
+group_expression_nonnumeric::GTEx normal colon,0,
+group_rows::Other GTEx normal tissues,7121,feasibility reference=7121
+group_expression_missing::Other GTEx normal tissues,0,
+group_expression_nonnumeric::Other GTEx normal tissues,0,
+group_primary_site_missing_but_detailed_label_used::TCGA colon primary tumors,0,
+group_primary_site_missing_but_detailed_label_used::TCGA rectum primary tumors,0,
+group_primary_site_missing_but_detailed_label_used::TCGA colon solid-tissue normals,0,
+group_primary_site_missing_but_detailed_label_used::TCGA rectum solid-tissue normals,0,
+group_primary_site_missing_but_detailed_label_used::GTEx normal colon,0,
+group_primary_site_missing_but_detailed_label_used::Other GTEx normal tissues,4,
+excluded::GTEx non-normal or unclassified sample,433,
+excluded::TARGET sample,734,
+"excluded::TCGA colorectal metastatic, recurrent, other, or ambiguous sample",3,
+excluded::TCGA non-colorectal sample,10101,
+access_date_utc,2026-11-25,Date at script execution; environment-local date

@@ -1,0 +1,40 @@
+# Python caches and temporary/editor files
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.tmp
+*.swp
+*~
+.DS_Store
+
+# Jupyter transient state (keep notebooks and their saved outputs)
+.ipynb_checkpoints/
+
+# CoCalc-only project/chat state
+*.chat
+.cocalc/
+.cocalc-*/
+.snapshots/
+
+# Credentials, secrets, and local environment configuration
+.env
+.env.*
+!.env.example
+*credentials*
+*secret*
+*token*
+*.pem
+*.key
+
+# Large raw/intermediate source data (keep the compact annotated CSV tracked)
+data/cdh17_expression_raw_all_samples.csv
+data/*_full_matrix*
+data/raw/
+*.gz
+
+# Local virtual environments
+.venv/
+venv/

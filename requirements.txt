@@ -1,0 +1,11 @@
+# Tested with Python 3.14.4; exact pins capture the environment used for this project.
+numpy==2.4.4
+pandas==3.0.3
+scipy==1.17.1
+matplotlib==3.10.8
+seaborn==0.13.2
+requests==2.33.0
+
+# Notebook execution support (the notebook uses IPython display and nbconvert).
+ipykernel==7.2.0
+nbconvert==7.17.0
